@@ -1,3 +1,10 @@
+<?php 
+
+$text = 'Conosco la metà di voi solo a metà e nutro per meno della metà di voi la metà dell affetto che meritate' ; 
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +14,7 @@
 </head>
 <body>
     <h1> PhP Badwords </h1>
-    <p> Conosco la metà di voi solo a metà e nutro per meno della metà di voi la metà dell'affetto che meritate</p>
+    <p> <?php echo $text; ?> </p>
     <form action="badword.php" method="POST">
         <input type='text' name='bad_word' placeholder='Inserisci la bad word'>
         <button type='input'>Modifica</button>
