@@ -1,6 +1,6 @@
 <?php 
 
-$text = 'Conosco la metà di voi solo a metà e nutro per meno della metà di voi la metà dell affetto che meritate' ; 
+$text = "Conosco la metà di voi solo a metà e nutro per meno della metà di voi la metà dell' affetto che meritate" ; 
 
 ?>
 
@@ -19,5 +19,7 @@ $text = 'Conosco la metà di voi solo a metà e nutro per meno della metà di vo
         <input type='text' name='bad_word' placeholder='Inserisci la bad word'>
         <button type='input'>Modifica</button>
     </form>
+
+    <p>Il testo è lungo <?php echo strlen($text); ?> caratteri.</p>
 </body>
 </html>
